@@ -38,3 +38,33 @@
 .conteudoPrincipal-cursos-link {
    width: 23%;
 }
+
+@media (max-width: 580px) {
+   .cabecalhoPrincipal-nav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .cabecalhoPrincipal-nav .cabecalhoPrincipal-nav-link {
+      display: flex;
+      justify-content: center;
+   }
+
+   .cabecalhoPrincipal .container {
+      flex-direction: column;
+   }
+
+   .conteudoPrincipal-cursos {
+      flex-direction: column;
+   }
+
+   .conteudoPrincipal-cursos-link {
+      width: 100%;
+   }
+
+   .rodapePrincipal-navMap-list {
+      align-items: center;
+      height: auto;
+   }
+}
