@@ -194,6 +194,10 @@ body {
 	line-height: 2;
 }
 
+.videoSobre-sobre-item {
+	list-style: disc inside;
+}
+
 .videoSobre-button {
 	border-radius: 8px;
 	background-color: #ec6e5a;
